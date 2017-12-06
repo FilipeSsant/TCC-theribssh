@@ -1,0 +1,155 @@
+@media screen and (min-device-width: 300px) and (orientation:portrait){
+    #selectPeriodo, #selectMesa{
+        width: 720px;
+        width: 70%;
+        height: 66px;
+        margin-top: 20px;
+        font-family: 'Open Sans', sans-serif;
+        font-size: 17px;
+    }
+	
+	#esqueleto{
+		margin-top:0;
+	}
+	
+    #caixa_pesquisa{
+        width:830px;
+        height:100%;
+        border:0px;
+        background-color:#ffffff;
+        margin-top: 1px;
+        /*Formatação da Fonte*/
+        font-family:'Open Sans', sans-serif;
+        font-size:30px;
+        color:#4f4f4f;
+    }
+
+    /*Calendario*/
+    #div_calendario{
+        width:100%;
+        height:300px;
+    }
+
+    #setas_calendario{
+        width:100%;
+        height:100px;
+        position:relative;
+
+       -webkit-user-select: none;
+       -khtml-user-select: none;
+       -moz-user-select: none;
+       -ms-user-select: none;
+       user-select: none;
+
+    }
+
+    .anterior, .proximo{
+        width:100px;
+        height:100px;
+        display:flex;
+        align-items:center;
+        cursor:pointer;
+        float:left;
+
+        font-size:50px;
+    }
+	
+	.anterior{
+		float: left;
+	}
+	
+    .proximo{
+        float:right;
+    }
+
+    .div_mes{
+        width:100%;
+        height:150px;
+        display:flex;
+        align-items:center;
+        /*Formatação da Fonte*/
+        font-style:italic;
+        font-size:65px;
+    }
+
+    .divDia_semana{
+        width:auto;
+        height:50px;
+    }
+
+    .dia_semana{
+        width:13.8%;
+        height:100%;
+        display:flex;
+        align-items:center;
+        border-right:2px solid #ffffff;
+        /*Formatação da Fonte*/
+        font-family:'Open Sans', sans-serif;
+		margin-left:auto;
+		margin-right:auto;
+        font-size:20px;
+        float:left;
+    }
+
+    .dia_semana:last-child{
+        border-right:0px;
+    }
+
+    .divDia_mes{
+        width:100%;
+        height:300px;
+		align-items:center;
+        background-color:#f9f9f9;
+    }
+
+    .div_dia{
+        width:14%;
+        height:50px;
+        display:flex;
+        align-items:center;
+        float:left;
+    }
+
+    .dia{
+        width: 42px;
+        height: 42px;
+        border-radius:50%;
+        margin-left:auto;
+        margin-right:auto;
+        display:flex;
+        align-items:center;
+
+        float:left;
+
+        /*Formatação da Fonte*/
+        font-family:'Open Sans', sans-serif;
+        font-size:20px;
+    }
+
+    .centralizar_texto{
+        margin-left:auto;
+        margin-right:auto;
+    }
+	
+    #div_foraCadastroReserva_mobile{
+        width: 100%;
+        min-height:1000px;
+        height: auto;
+        position: absolute;
+        z-index: 181;
+        margin: auto;
+		margin-top:-18px;
+    }
+
+    #div_cadastroReserva_mobile{
+        width:95%;
+        height:1190px;
+        height:97%;
+        background-color:#fff;
+        margin:auto;
+        margin-top:25px;
+    }
+	.botao_formulario{
+		width:100%;
+	}
+}

@@ -1,0 +1,1747 @@
+@media screen and (min-width: 1280px){
+    /*Estilização do Scroll*/
+    /*Chrome*/
+    ::-webkit-scrollbar-track {
+        background-color: #F4F4F4;
+    }
+    ::-webkit-scrollbar {
+        width: 6px;
+        height: 6px;
+        background: #F4F4F4;
+    }
+    ::-webkit-scrollbar-thumb {
+        background: #dad7d7;
+    }
+
+
+    /*Serve para tirar as bordas azuis no chrome*/
+    textarea:focus, input:focus, select:focus {
+        outline: 0;
+    }
+
+    *{
+        margin:0;
+        padding: 0;
+    }
+
+    a{
+        text-decoration: none;
+        outline: none;
+    }
+
+    #esqueleto{
+        max-width: 2000px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    body{
+        width:100%;
+        height: auto;
+    }
+
+    /*Fundo Transparente*/
+    #fundo_transparente{
+        width:100%;
+        height:100%;
+        position:fixed;
+        z-index:180;
+        background-color:rgba(0, 0, 0, 0.5);
+        display:none;
+
+    }
+
+    /*Fechar Janela (Pop Up)*/
+    .botao_fecharPopUp{
+        width:40px;
+        height:40px;
+        position:absolute;
+        right:0;
+        cursor:pointer;
+    }
+
+    .botao_fecharPopUp img{
+        width:25px;
+        height:25px;
+        margin-left:8px;
+        margin-top:8px;
+    }
+
+    /*Div Login*/
+
+    #div_foraLogin, #div_foraLoginFuncionario{
+        width:820px;
+        height:300px;
+        position:absolute;
+        z-index:181;
+        margin:auto;
+        top:0;
+        bottom:0;
+        right:0;
+        left:0;
+        display:none;
+    }
+
+    .div_login{
+        width:95%;
+        height:250px;
+        background-color:#fff;
+        margin:auto;
+        margin-top:25px;
+    }
+
+    /*Div Enquete*/
+    #div_foraEnquete{
+        width:820px;
+        height:450px;
+        position:absolute;
+        z-index:181;
+        margin:auto;
+        top:0;
+        bottom:0;
+        right:0;
+        left:0;
+        display:none;
+    }
+
+    #div_enquete{
+        width:95%;
+        height:400px;
+        background-color:#fff;
+        margin:auto;
+        margin-top:25px;
+    }
+
+    #div_tituloJanela{
+        width:700px;
+        height:50px;
+        margin-left:auto;
+        margin-right: auto;
+        margin-top:20px;
+
+        /*Formatação da Fonte*/
+        font-family:'Open Sans', sans-serif;
+        font-size:18px;
+        text-align:center;
+        color:#fff;
+        line-height:50px;
+    }
+
+    .titulo_popCadastro{
+        width:305px;
+        height:20px;
+        padding:10px;
+        margin-left:auto;
+        margin-right:auto;
+        margin-top:20px;
+
+        /*Formatação da Fonte*/
+        font-family:'Open Sans', sans-serif;
+        text-align:center;
+        color:#fff;
+        font-size:16px;
+        line-height:20px;
+    }
+
+    #div_radioButton{
+        width:200px;
+        height:100px;
+        padding:20px;
+        margin-left:auto;
+        margin-right: auto;
+        margin-top:20px;
+    }
+
+    .radio_button{
+        margin-right:5px;
+        border:0px;
+        cursor:pointer;
+    }
+
+    .texto_radio{
+        /*Formatação da Fonte*/
+        font-family:'Open Sans', sans-serif;
+        font-size:15px;
+        cursor:pointer;
+    }
+
+    /*Botão cadastrar Usuario ou Funcionario*/
+    #div_botao_cadastrarComoFuncionario{
+        width:180px;
+        height:50px;
+        border:0;
+        background-color:transparent;
+        position:absolute;
+        cursor:pointer;
+        margin-top:-135px;
+    }
+
+    #botao_mudancaLoginFuncionario{
+        width:50px;
+        height:50px;
+        float:left;
+    }
+
+    #botao_mudancaLoginFuncionario img{
+        width:40px;
+        height:40px;
+        margin-top:5px;
+    }
+
+    #textoBotao_mudancaLoginFuncionario{
+        -moz-transition:0.3s;
+        -webkit-transition:0.3s;
+        width:0px;
+        height:50px;
+        overflow:hidden;
+        float:left;
+
+        /*Formatação da Fonte*/
+        font-family:'Open Sans', sans-serif;
+        font-size:15px;
+        line-height:50px;
+    }
+
+    /*Título Login ou Cadastro*/
+    .titulo_loginCadastro{
+        width:100%;
+        height:70px;
+    }
+
+    .linha_atrasDoTitulo{
+        width:780px;
+        height:10px;
+        position:absolute;
+        z-index:101;
+        margin-top:30px;
+    }
+
+    .divTexto_loginCadastro{
+        width:350px;
+        height:50px;
+        position:absolute;
+        margin:auto;
+        left:0;
+        right:0;
+        z-index:102;
+        margin-top:10px;
+        text-align:center;
+
+        /*Formatação da Fonte*/
+        font-family:'Open Sans', sans-serif;
+        font-size:20px;
+        line-height:50px;
+    }
+
+    /* Formulario Login*/
+    .formulario_login{
+        width:100%;
+        height:180px;
+        text-align:center;
+    }
+
+    .input_texto:first-child{
+        margin-top:20px;
+    }
+
+    .input_texto{
+        width:320px;
+        height:30px;
+        margin-top:20px;
+        text-align:center;
+
+        /*Formatação da Fonte*/
+        font-family:'Open Sans', sans-serif;
+        font-size:14px;
+    }
+
+.input_texto_lateral{
+    width:158px;
+    height:30px;
+    margin-top:20px;
+        text-align:center;
+
+        /*Formatação da Fonte*/
+        font-family:'Open Sans', sans-serif;
+        font-size:14px;
+    }
+
+    .input_texto::placeholder{
+        text-align:center;
+    }
+
+    /*Div de condições: se existe ou não*/
+    .div_condicao{
+        width:30px;
+        height:30px;
+        position:absolute;
+        margin:auto;
+        margin-top:-31px;
+        margin-left:520px;
+    }
+
+    .div_condicao img{
+        width:20px;
+        height:20px;
+        margin-top:5px;
+    }
+
+
+    /*Cartão, utilizado para uma função especifica*/
+    .input_textoC{
+        width:320px;
+        height:30px;
+        margin-top:20px;
+        text-align:center;
+
+        /*Formatação da Fonte*/
+        font-family:'Open Sans', sans-serif;
+        font-size:14px;
+    }
+
+    .input_texto_lateralC{
+        width:158px;
+        height:30px;
+        margin-top:20px;
+        text-align:center;
+
+        /*Formatação da Fonte*/
+        font-family:'Open Sans', sans-serif;
+        font-size:14px;
+    }
+
+    .input_textoC::placeholder{
+        text-align:center;
+    }
+
+    .ver_senha{
+        width:30px;
+        height:30px;
+        position:absolute;
+        margin:auto;
+        margin-top:-31px;
+        margin-left:520px;
+    }
+
+    .ver_senha img{
+        width:15px;
+        height:15px;
+        margin-top:9px;
+    }
+
+    .botao_formulario{
+        width:160px;
+        height:30px;
+        border:0px;
+        margin-top:20px;
+        cursor:pointer;
+
+        /*Formatação da Fonte*/
+        font-family:'Open Sans', sans-serif;
+        font-size:14px;
+    }
+
+    .botao_tipoFile{
+        margin-top:10px;
+
+        /*Formatação da Fonte*/
+        font-family:'Open Sans', sans-serif;
+        color:#000;
+        font-size:13px;
+    }
+
+    /*Função explicativa*/
+    .icone_explicativo{
+        width:30px;
+        height:30px;
+        position:absolute;
+        right:0;
+        margin-right:248px;
+        margin-top:-31px;
+        border-radius:20px;
+    }
+
+    .icone_explicativo img{
+        width:20px;
+        height:20px;
+        margin-top:6px;
+    }
+
+    .div_informativa{
+        -moz-transition:0.3s;
+        -webkit-transition:0.3s;
+        width:200px;
+        height:120px;
+        right:0;
+        margin-top:-120px;
+        margin-right:35px;
+        position:absolute;
+        opacity:0;
+    }
+
+    .div_informativa img{
+        width:200px;
+        height:120px;
+    }
+
+    h6{
+        display:none;
+    }
+
+
+    /*Div Cadastro*/
+    .formulario_cadastro{
+        width:100%;
+        height:180px;
+        text-align:center;
+    }
+
+    #div_foraCadastro{
+        width:820px;
+        height:1180px;
+        position:absolute;
+        z-index:181;
+        margin:auto;
+        top:0;
+        bottom:0;
+        right:0;
+        left:0;
+        display:none;
+        margin-top: 125px;
+    }
+
+    #div_foraCadastroReserva{
+        width:820px;
+        height:900px;
+        position:absolute;
+        z-index:181;
+        margin:auto;
+        top:0;
+        bottom:0;
+        right:0;
+        left:0;
+        display:none;
+        margin-top: 125px;
+    }
+
+    #div_cadastroReserva{
+        width:95%;
+        height:850px;
+        background-color:#fff;
+        margin:auto;
+        margin-top:25px;
+    }
+
+    #div_cadastro{
+        width:95%;
+        height:1130px;
+        background-color:#fff;
+        margin:auto;
+        margin-top:25px;
+    }
+
+    #alerta_preenchimento{
+        width:300px;
+        height:40px;
+        margin-left:auto;
+        margin-right:auto;
+        margin-top:10px;
+        padding:10px;
+
+        /*Formatação da Fonte*/
+        font-family:'Open Sans', sans-serif;
+        font-size:14px;
+        text-align:center;
+    }
+
+    .asterisco{
+        font-family:'Open Sans', sans-serif;
+        font-size:14px;
+        position:absolute;
+        margin-top:23px;
+        margin-left:5px;
+        color:red;
+    }
+
+    .select{
+        width:320px;
+        height:30px;
+        margin-top:20px;
+        text-align:center;
+
+        /*Formatação da Fonte*/
+        font-family:'Open Sans', sans-serif;
+        font-size:14px;
+    }
+
+    #div_bandeiras{
+        width:50px;
+        height:90px;
+        background-color:red;
+        position:absolute;
+        right:0;
+        margin-top:-0px;
+    }
+
+    /*Alterar Dados*/
+
+    #div_foraAlterar{
+        width:820px;
+        height:1090px;
+        position:absolute;
+        z-index:181;
+        margin:auto;
+        top:0;
+        bottom:0;
+        right:0;
+        left:0;
+        display:none;
+        margin-top: 125px;
+    }
+
+    #div_alterar{
+        width:95%;
+        height:1040px;
+        background-color:#fff;
+        margin:auto;
+        margin-top:25px;
+    }
+
+
+    /*Nova Senha*/
+
+    #div_foraNovaSenha{
+      width:820px;
+      height:370px;
+      position:absolute;
+      z-index:181;
+      margin:auto;
+      top:0;
+      bottom:0;
+      right:0;
+      left:0;
+      display:none;
+    }
+
+    #div_novaSenha{
+        width:95%;
+        height:320px;
+        background-color:#fff;
+        margin:auto;
+        margin-top:25px;
+    }
+
+    /*Cabeçalho*/
+    header{
+        width:100%;
+        min-width: 1300px;
+        max-width: 2000px;
+        height: 100px;
+        opacity: 0.95;
+        position: fixed;
+        z-index: 120;
+    }
+
+    #espacoVazio{
+        height: 100px;
+    }
+
+    #cabecalhoBg{
+        width:100%;
+        height: 100px;
+        position: absolute;
+        z-index: -1;
+        opacity:1;
+        overflow:none;
+    }
+
+    /*Logo no Cabeçalho*/
+    #logoCabecalho{
+        width:9%;
+        height:100px;
+        text-align:center;
+        border-right: solid 5px #ffffff;
+        float:left;
+    }
+
+    #logoCabecalho img{
+        width:120px;
+        height:90px;
+        margin-top:5px;
+        margin-left:-5px;
+    }
+
+    /*Botão menu responsivo*/
+    #botao_menu_responsivo{
+        display:none;
+    }
+
+    /*Menu do Cabeçalho*/
+    #div_areaMenu{
+        width:70%;
+        height:100px;
+        float:left;
+        display:block;
+    }
+
+    #div_transparenteMenuResponsivo{
+        display:none;
+    }
+
+    #areaMenu{
+        width:550px;
+        height: 100px;
+          overflow:hidden;
+        text-align:center;
+        margin-left:auto;
+        margin-right:auto;
+        align-content: center;
+    }
+
+    #areaMenu ul{
+        width:auto;
+        height:100px;
+    }
+
+    #areaMenu ul li{
+        text-decoration:none;
+        list-style:none;
+        display:block;
+        margin-right:25px;
+        float:left;
+    }
+    #areaMenu ul li a{
+        text-decoration:none;
+        width:100%;
+        height:100px;
+        line-height:100px;
+        padding-left:25px;
+        display:block;
+        transition: all 1s;
+
+        /*Formatação da Fonte*/
+        font-family:'Open Sans', sans-serif;
+        font-size:18px;
+
+    }
+
+    /*Login do Usúario*/
+    #areaAbrirLogin{
+        width:20%;
+        height: 100px;
+        margin-right:5px;
+        float:right;
+    }
+
+    #areaUser{
+        width:100%;
+        height: 100px;
+        border-left:5px solid #fff;
+        float:left;
+    }
+
+    #imgUser{
+        width:23%;
+        height:80px;
+		position: relative;
+        margin-left: 8px;
+        margin-top: 10px;
+        float:left;
+    }
+    #imgUser img{
+        width: 72px;
+        height: 69px;
+        margin-left: 5px;
+        margin-top: 5px;
+        border-radius: 50%;
+    }
+    #txtUser{
+        width:74%;
+        height:100px;
+        float:left;
+        display:block;
+    }
+
+    #texto1_areaDoUsuario{
+        width:100%;
+        height:20px;
+        margin-top:30px;
+        text-align:center;
+
+        /*Formatação da Fonte*/
+        font-family:'Open Sans', sans-serif;
+        font-size:85%;
+    }
+
+    #texto2_areaDoUsuario{
+        width:100%;
+        height:20px;
+        text-align:center;
+
+        /*Formatação da Fonte*/
+        font-family:'Open Sans', sans-serif;
+        font-size:75%;
+    }
+
+    /*Ao passar o mouse na area do usuario*/
+    #div_sairUser{
+        -moz-transition: 0.5s;
+        -webkit-transition: 0.5s;
+        width: 30px;
+        height: 30px;
+        top: -60px;
+        position:absolute;
+        overflow: hidden;
+        right: 0;
+        margin-top: 128px;
+        z-index: 122;
+        background-color: #fff;
+    }
+
+    #div_sairUser img{
+        width: 18px;
+        height: 18px;
+        margin-left: 7px;
+        margin-top: 7px;
+    }
+
+    #div_foraAlterarFoto{
+        width:820px;
+        height:300px;
+        position:absolute;
+        z-index:181;
+        margin:auto;
+        top:0;
+        bottom:0;
+        right:0;
+        left:0;
+        display:none;
+        margin-top: 125px;
+    }
+
+    #div_alternarFoto{
+        width:95%;
+        height:250px;
+        background-color:#fff;
+        margin:auto;
+        margin-top:25px;
+    }
+
+    #div_emailUser{
+        color:#666;
+        font-size:12px;
+    }
+
+    #div_botoesPerfHist{
+        width:400px;
+        height:40px;
+        text-align:center;
+    }
+
+    .botao_popUpUser{
+        width:150px;
+        height:25px;
+        margin-top:8px;
+        border:0;
+        cursor:pointer;
+
+        /*Formatação da Fonte*/
+        font-family:'Open Sans', sans-serif;
+        text-align:center;
+        font-size:12px;
+    }
+
+    /*Rodapé*/
+    #rodapeBg{
+        width:100%;
+        max-width: 2000px;
+        height:600px;
+        position: absolute;
+    }
+
+    #divAndroid_baixar{
+        display:none;
+    }
+
+    #nomeRuaRodape{
+        height:50px;
+        width:100%;
+
+        /*Formatação da Fonte*/
+        font-family:'Open Sans', sans-serif;
+        color:#ffffff;
+        font-size:18px;
+        text-align:center;
+        line-height:50px;
+    }
+
+    /*Logo do Rodapé*/
+    #divLogoRodape{
+        height:320px;
+        width:100%;
+    }
+
+    #logoRodape{
+        height:300px;
+        width:400px;
+        margin-left:auto;
+        margin-right:auto;
+    }
+
+    #logoRodape img{
+        height:300px;
+        width:400px;
+    }
+
+    /*Redes Sociais no Rodapé*/
+    #divRedeSocial{
+        height:90px;
+        width:100%;
+    }
+
+    #divAgrupadoraRedeSocial{
+        height:90px;
+        min-width:90px;
+        max-width:330px;
+        margin-left:auto;
+        margin-right:auto;
+    }
+
+    .redeSocial:first-child{
+        margin-left:0px;
+    }
+
+    .redeSocial{
+        -moz-transition:0.3s;
+        -webkit-transition:0.3s;
+        height:90px;
+        width:90px;
+        margin-left:30px;
+        float:left;
+    }
+
+    .redeSocial img{
+        height:90px;
+        width:90px;
+    }
+
+    .redeSocial:hover{
+        -moz-transition:0.3s;
+        -webkit-transition:0.3s;
+        margin-top:-10px;
+    }
+
+    /*Todos os Direitos Reservados Rodapé*/
+    #divTodosDireitos{
+        height:40px;
+        width:100%;
+    }
+
+    #todosDireitos{
+        height:60px;
+        width:220px;
+        margin-left:auto;
+        margin-right:auto;
+        margin-top:20px;
+
+        /*Formatação da Fonte*/
+        font-family:'Open Sans', sans-serif;
+        color:#ffffff;
+        font-size:12px;
+        text-align:center;
+    }
+}
+
+@media screen and (min-device-width: 300px) and (orientation:portrait){
+    /*Estilização do Scroll*/
+    /*Chrome*/
+    ::-webkit-scrollbar-track {
+        background-color: #F4F4F4;
+    }
+    ::-webkit-scrollbar {
+        width: 6px;
+        background: #F4F4F4;
+    }
+    ::-webkit-scrollbar-thumb {
+        background: #dad7d7;
+    }
+
+
+    /*Serve para tirar as bordas azuis no chrome*/
+    textarea:focus, input:focus, select:focus {
+        outline: 0;
+    }
+
+    *{
+        margin:0;
+        padding: 0;
+    }
+
+    a{
+        text-decoration: none;
+        outline: none;
+    }
+
+    #esqueleto{
+        max-width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    body{
+        width:100%;
+        height: auto;
+    }
+
+    /*Fundo Transparente*/
+    #fundo_transparente{
+        width:100%;
+        height:100%;
+        position:fixed;
+        z-index:180;
+        background-color:rgba(0, 0, 0, 0.5);
+        display:none;
+
+    }
+
+    /*Fechar Janela (Pop Up)*/
+    .botao_fecharPopUp{
+        width:90px;
+        height:90px;
+        position:absolute;
+        right:0;
+    }
+
+    .botao_fecharPopUp img{
+        width:65px;
+        height:65px;
+        margin-left: 13px;
+        margin-top: 13px;
+    }
+
+    /*Div Login*/
+
+    #div_foraLogin, #div_foraLoginFuncionario{
+        width: 100%;
+        height: 517px;
+        position:absolute;
+        z-index:181;
+        margin:auto;
+        top:0;
+        bottom:0;
+        right:0;
+        left:0;
+        display:none;
+    }
+
+    .div_login{
+        width:95%;
+        height: 90%;
+        background-color:#fff;
+        margin:auto;
+        margin-top:25px;
+    }
+
+    h6{
+        display:none;
+    }
+
+    /*Div Enquete*/
+    #div_foraEnquete{
+        width:100%;
+        height:520px;
+        position:absolute;
+        z-index:181;
+        margin:auto;
+        top:0;
+        bottom:0;
+        right:0;
+        left:0;
+        display:none;
+    }
+
+    #div_enquete{
+        width:95%;
+        height:470px;
+        background-color:#fff;
+        margin:auto;
+        margin-top:25px;
+    }
+
+    #div_foraCadastroReserva{
+        width:100%;
+        height:1240px;
+        position:absolute;
+        z-index:181;
+        margin:auto;
+        top:0;
+        bottom:0;
+        right:0;
+        left:0;
+        display:none;
+        margin-top: 125px;
+    }
+
+    #div_cadastroReserva{
+        width:95%;
+        height:1190px;
+        background-color:#fff;
+        margin:auto;
+        margin-top:25px;
+    }
+
+    #div_tituloJanela{
+        width: 80%;
+        height: 60px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 20px;
+        font-family: 'Open Sans', sans-serif;
+        font-size: 33px;
+        text-align: center;
+        color: #fff;
+        line-height: 60px;
+    }
+
+    .titulo_popCadastro{
+        width: 405px;
+        height: 40px;
+        padding: 10px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 20px;
+        font-family: 'Open Sans', sans-serif;
+        text-align: center;
+        color: #fff;
+        font-size: 30px;
+        line-height: 40px;
+    }
+
+    #div_radioButton{
+        width: 500px;
+        height: 120px;
+        padding:20px;
+        margin-left:auto;
+        margin-right: auto;
+        margin-top:20px;
+    }
+
+    .radio_button{
+        height: 25px;
+        width: 25px;
+        margin-right:5px;
+        border:0px;
+        cursor:pointer;
+    }
+
+    .texto_radio{
+        /*Formatação da Fonte*/
+        font-family:'Open Sans', sans-serif;
+        font-size:28px;
+        cursor:pointer;
+    }
+
+    /*Botão cadastrar Usuario ou Funcionario*/
+    #div_botao_cadastrarComoFuncionario{
+        display:none;
+    }
+
+    #botao_mudancaLoginFuncionario{
+        width:50px;
+        height:50px;
+        float:left;
+    }
+
+    #botao_mudancaLoginFuncionario img{
+        width:40px;
+        height:40px;
+        margin-top:5px;
+    }
+
+    #textoBotao_mudancaLoginFuncionario{
+        -moz-transition:0.3s;
+        -webkit-transition:0.3s;
+        width:0px;
+        height:50px;
+        overflow:hidden;
+        float:left;
+
+        /*Formatação da Fonte*/
+        font-family:'Open Sans', sans-serif;
+        font-size:15px;
+        line-height:50px;
+    }
+
+    /*Título Login ou Cadastro*/
+    .titulo_loginCadastro{
+        width:100%;
+        height: 80px;
+    }
+
+    .linha_atrasDoTitulo{
+        width: 94%;
+        height: 10px;
+        position: absolute;
+        z-index: 101;
+        margin-top: 50px;
+    }
+
+    .divTexto_loginCadastro{
+        width: 60%;
+        height: 80px;
+        position: absolute;
+        margin: auto;
+        left: 0;
+        right: 0;
+        z-index: 102;
+        margin-top: 10px;
+        text-align: center;
+        font-family: 'Open Sans', sans-serif;
+        font-size: 44px;
+        line-height: 80px;
+    }
+
+    /* Formulario Login*/
+    .formulario_login{
+        width: auto;
+        height: auto;
+        margin-top: 20px;
+        text-align: center;
+    }
+
+    .input_texto{
+        width: 500px;
+        height: 66px;
+        margin-top: 20px;
+        border: 1px solid #c8c8c8;
+        text-align: center;
+        font-family: 'Open Sans', sans-serif;
+        font-size: 33px;
+    }
+
+    .input_texto_lateral{
+        width: 250px;
+        height: 66px;
+        margin-top: 20px;
+        border: 1px solid #c8c8c8;
+        text-align: center;
+        font-family: 'Open Sans', sans-serif;
+        font-size: 33px;
+    }
+
+    .input_texto::placeholder{
+        text-align:center;
+    }
+
+    /*Div de condições: se existe ou não*/
+    .div_condicao{
+        width:30px;
+        height:30px;
+        position:absolute;
+        margin:auto;
+        margin-top:-31px;
+        margin-left:520px;
+    }
+
+    .div_condicao img{
+        width:20px;
+        height:20px;
+        margin-top:5px;
+    }
+
+
+    /*Cartão, utilizado para uma função especifica*/
+    .input_textoC{
+        width:500px;
+        height:66px;
+        margin-top:20px;
+        border: 1px solid #c8c8c8;
+        text-align:center;
+
+        /*Formatação da Fonte*/
+        font-family:'Open Sans', sans-serif;
+        font-size:33px;
+    }
+
+    .input_texto_lateralC{
+        width:250px;
+        height:66px;
+        margin-top:20px;
+        border: 1px solid #c8c8c8;
+        text-align:center;
+
+        /*Formatação da Fonte*/
+        font-family:'Open Sans', sans-serif;
+        font-size:33px;
+    }
+
+    .input_textoC::placeholder{
+        text-align:center;
+    }
+
+    .ver_senha{
+        width: 60px;
+        height: 60px;
+        position: absolute;
+        margin: auto;
+        margin-top: -64px;
+        margin-left: 652px;
+    }
+
+    .ver_senha img{
+        width: 35px;
+        height: 35px;
+        margin-top: 10px;
+    }
+
+    .botao_formulario{
+        width: 500px;
+        height: 60px;
+        border: 0px;
+        margin-top: 20px;
+        cursor: pointer;
+        font-family: 'Open Sans', sans-serif;
+        font-size: 30px;
+
+    }
+
+    .botao_tipoFile{
+        margin-top:10px;
+
+        /*Formatação da Fonte*/
+        font-family:'Open Sans', sans-serif;
+        color:#000;
+        font-size:33px;
+    }
+
+    /*Função explicativa*/
+    .icone_explicativo{
+        width: 50px;
+        height: 50px;
+        position: absolute;
+        right: 0;
+        margin-right: 243px;
+        margin-top: -65px;
+        border-radius: 20px;
+    }
+
+    .icone_explicativo img{
+        width: 50px;
+        height: 50px;
+        margin-top: 6px;
+    }
+
+    .div_informativa{
+        -moz-transition:0.3s;
+        -webkit-transition:0.3s;
+        width:200px;
+        height:120px;
+        right:0;
+        margin-top:-120px;
+        margin-right:35px;
+        position:absolute;
+        opacity:0;
+    }
+
+    .div_informativa img{
+        width:200px;
+        height:120px;
+    }
+
+
+    /*Div Cadastro*/
+    .formulario_cadastro{
+        width:100%;
+        height:180px;
+        margin-top: 20px;
+        text-align:center;
+    }
+
+    #div_foraCadastro{
+        width:100%;
+        height:1900px;
+        position:absolute;
+        z-index:181;
+        margin:auto;
+        top:0;
+        bottom:0;
+        right:0;
+        left:0;
+        display:none;
+        margin-top: 125px;
+    }
+
+    #div_cadastro{
+        width:95%;
+        height:1850px;
+        background-color:#fff;
+        margin:auto;
+        margin-top:25px;
+    }
+
+    #alerta_preenchimento{
+        width: 500px;
+        height: 60px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 20px;
+        padding: 10px;
+        font-family: 'Open Sans', sans-serif;
+        font-size: 25px;
+        text-align: center;
+    }
+
+    .asterisco{
+        font-family:'Open Sans', sans-serif;
+        font-size:33px;
+        position:absolute;
+        margin-top:23px;
+        margin-left:5px;
+        color:red;
+    }
+
+    .select{
+        width: 500px;
+        height: 66px;
+        margin-top: 20px;
+        font-family: 'Open Sans', sans-serif;
+        font-size: 33px;
+    }
+
+    #div_bandeiras{
+        width:50px;
+        height:90px;
+        background-color:red;
+        position:absolute;
+        right:0;
+        margin-top:-0px;
+    }
+
+    /*Alterar Dados*/
+
+    #div_foraAlterar{
+        width: 100%;
+        height: 1754px;
+        position:absolute;
+        z-index:181;
+        margin:auto;
+        top:0;
+        bottom:0;
+        right:0;
+        left:0;
+        display:none;
+        margin-top: 125px;
+    }
+
+    #div_alterar{
+        width:95%;
+        height:1695px;
+        background-color:#fff;
+        margin:auto;
+        margin-top:25px;
+    }
+
+
+    /*Nova Senha*/
+
+    #div_foraNovaSenha{
+      width: 100%;
+      height: 550px;
+      position:absolute;
+      z-index:181;
+      margin:auto;
+      top:0;
+      bottom:0;
+      right:0;
+      left:0;
+      display:none;
+    }
+
+    #div_novaSenha{
+        width:95%;
+        height:500px;
+        background-color:#fff;
+        margin:auto;
+        margin-top:25px;
+    }
+
+    /*Cabeçalho*/
+    header{
+        width:100%;
+        height: 200px;
+        opacity: 0.95;
+        position: fixed;
+        z-index: 140;
+    }
+
+    #espacoVazio{
+        height: 200px;
+    }
+
+    #cabecalhoBg{
+        width:100%;
+        height: 200px;
+        position: absolute;
+        z-index: -1;
+        opacity:1;
+        overflow:none;
+    }
+
+    /*Logo no Cabeçalho*/
+    #logoCabecalho{
+        width:100%;
+        height:200px;
+        display:flex;
+        align-items:center;
+        margin-left:auto;
+    }
+
+    #logoCabecalho img{
+        width: 200px;
+        height: 148px;
+    }
+
+    /*Botão menu responsivo*/
+    #botao_menu_responsivo{
+        width:120px;
+        height:120px;
+        top: 120px;
+        left: 0;
+        margin-left: 15px;
+        position:absolute;
+        display:block;
+    }
+
+    #botao_menu_responsivo img{
+        width: 90px;
+        height: 90px;
+        margin-left: 15px;
+        margin-top: 15px;
+    }
+
+    #centralizar_mobile{
+        width: 200px;
+        height: 148px;
+        margin-left:auto;
+        margin-right:auto;
+    }
+
+    /*Menu do Cabeçalho*/
+    #div_areaMenu{
+        display:none;
+    }
+
+    #div_areaMenuResponsivo{
+        width:100%;
+        height:0px;
+    }
+
+    #div_transparenteMenuResponsivo{
+        -moz-transition:0.7s;
+        -webkit-transition:0.7s;
+        width:100%;
+        height:0px;
+        top:0;
+        position:fixed;
+        z-index:150;
+        overflow:hidden;
+    }
+
+    #areaMenuResponsivo{
+        width: 100%;
+        height: auto;
+        overflow:hidden;
+        text-align:center;
+        margin-left:auto;
+        margin-right:auto;
+        align-content: center;
+    }
+
+    #areaMenuResponsivo ul{
+        width:auto;
+        height:auto;
+    }
+
+    #areaMenuResponsivo ul li{
+        text-decoration: none;
+        list-style: none;
+        display: block;
+        border-bottom: 1.5px solid #fff;
+        padding:10px;
+    }
+
+    #areaMenuResponsivo ul li a{
+        text-decoration:none;
+        width:100%;
+        height:100px;
+        line-height:100px;
+        padding-left:25px;
+        display:block;
+        transition: all 1s;
+
+        /*Formatação da Fonte*/
+        font-family:'Open Sans', sans-serif;
+        font-size:30px;
+
+    }
+
+    /*Login do Usúario*/
+    #areaAbrirLogin{
+        width:16%;
+        height: auto;
+        position:absolute;
+        right: 0;
+        top: 6px;
+        margin-right: 5px;
+        float:right;
+    }
+
+    #areaUser{
+        width: 150px;
+        height: 150px;
+        border-radius: 50%;
+    }
+
+    #imgUser{
+        width: 100%;
+        height: 100%;
+        margin-top: 10px;
+        border-radius: 50%;
+    }
+    #imgUser img{
+        width: 100%;
+        height: 100%;
+        border-radius: 50%;
+    }
+    #txtUser{
+        display:none;
+    }
+
+    #texto1_areaDoUsuario{
+        width:100%;
+        height:20px;
+        margin-top:30px;
+        text-align:center;
+
+        /*Formatação da Fonte*/
+        font-family:'Open Sans', sans-serif;
+        font-size:16px;
+    }
+
+    #texto2_areaDoUsuario{
+        width:100%;
+        height:20px;
+        text-align:center;
+
+        /*Formatação da Fonte*/
+        font-family:'Open Sans', sans-serif;
+        font-size:13px;
+    }
+
+    /*Ao passar o mouse na area do usuario*/
+    #div_sairUser{
+        -moz-transition: 0.5s;
+        -webkit-transition: 0.5s;
+        width: 80px;
+        height: 80px;
+        top: -60px;
+        border-radius:50%;
+        position:absolute;
+        overflow: hidden;
+        right: 0;
+        margin-top: 128px;
+        z-index: 122;
+        background-color: #fff;
+    }
+
+    #div_sairUser img{
+        width: 55px;
+        height: 55px;
+        margin-left: 20px;
+        margin-top: 15px;
+    }
+
+
+    #div_foraAlterarFoto{
+        width: 100%;
+        height: 400px;
+        position: absolute;
+        z-index: 181;
+        margin: auto;
+        top: 0;
+        bottom: 0;
+        right: 0;
+        left: 0;
+        display: none;
+        margin-top: 125px;
+    }
+
+    #div_alternarFoto{
+        width:95%;
+        height:350px;
+        background-color:#fff;
+        margin:auto;
+        margin-top:25px;
+    }
+
+    #div_emailUser{
+        color:#666;
+        font-size:12px;
+    }
+
+    #div_botoesPerfHist{
+        width:400px;
+        height:40px;
+        text-align:center;
+    }
+
+    .botao_popUpUser{
+        width:150px;
+        height:25px;
+        margin-top:8px;
+        border:0;
+        cursor:pointer;
+
+        /*Formatação da Fonte*/
+        font-family:'Open Sans', sans-serif;
+        text-align:center;
+        font-size:12px;
+    }
+
+    /*Rodapé*/
+    #rodapeBg{
+        width:100%;
+        max-width: 2000px;
+        height:800px;
+        position: absolute;
+    }
+
+    #divAndroid_baixar{
+        height: 230px;
+        width: 500px;
+        margin-left: auto;
+        margin-right: auto;
+        cursor:pointer;
+        display:block;
+    }
+
+    #foto_android{
+        width: 200px;
+        height: 200px;
+        border-radius:100%;
+        display:flex;
+        align-items:center;
+        background-color:#718633;
+        margin-left: auto;
+        margin-right: auto;
+        text-align:center;
+    }
+
+    #foto_android img{
+        width: 150px;
+        height: 150px;
+        margin-left:auto;
+        margin-right:auto;
+    }
+
+    #texto_android{
+        width: 100%;
+        height: 20px;
+        color: #fff;
+        margin-left: auto;
+        margin-top: 10px;
+        margin-right: auto;
+        font-family: 'Open Sans', sans-serif;
+        line-height: 20px;
+        text-align: center;
+        font-size: 20px;
+    }
+
+    #nomeRuaRodape{
+        height:50px;
+        width:100%;
+
+        /*Formatação da Fonte*/
+        font-family:'Open Sans', sans-serif;
+        color:#ffffff;
+        font-size:29px;
+        text-align:center;
+        line-height:50px;
+    }
+
+    /*Logo do Rodapé*/
+    #divLogoRodape{
+        height:320px;
+        width:100%;
+    }
+
+    #logoRodape{
+        height:300px;
+        width:400px;
+        margin-left:auto;
+        margin-right:auto;
+    }
+
+    #logoRodape img{
+        height:300px;
+        width:400px;
+    }
+
+    /*Redes Sociais no Rodapé*/
+    #divRedeSocial{
+        height:90px;
+        width:100%;
+    }
+
+    #divAgrupadoraRedeSocial{
+        height:90px;
+        min-width:90px;
+        max-width:330px;
+        margin-left:auto;
+        margin-right:auto;
+    }
+
+    .redeSocial:first-child{
+        margin-left:0px;
+    }
+
+    .redeSocial{
+        -moz-transition:0.3s;
+        -webkit-transition:0.3s;
+        height:90px;
+        width:90px;
+        margin-left:30px;
+        float:left;
+    }
+
+    .redeSocial img{
+        height:90px;
+        width:90px;
+    }
+
+    .redeSocial:hover{
+        -moz-transition:0.3s;
+        -webkit-transition:0.3s;
+        margin-top:-10px;
+    }
+
+    /*Todos os Direitos Reservados Rodapé*/
+    #divTodosDireitos{
+        height:40px;
+        width:100%;
+    }
+
+    #todosDireitos{
+        height:60px;
+        width:auto;
+        margin-left:auto;
+        margin-right:auto;
+        margin-top:20px;
+
+        /*Formatação da Fonte*/
+        font-family:'Open Sans', sans-serif;
+        color:#ffffff;
+        font-size:20px;
+        text-align:center;
+    }
+}

@@ -1,0 +1,35 @@
+#tabela_crud_titulos{
+    width:640px;
+    height:50px;
+    background-color:red;
+    margin-left:auto;
+    margin-right: auto;
+    margin-top:100px;
+}
+
+.tabela_crud_conteudo{
+    width:640px;
+    height:50px;
+    margin-left:auto;
+    margin-right: auto;
+}
+
+.botao_finalizarPedido{
+    -moz-transition:0.3s;
+    -webkit-transition:0.3s;
+    width:640px;
+    height:30px;
+    border:0px;
+    background-color:#6ac259;
+    cursor:pointer;
+
+    /*Formatação da Fonte*/
+    font-family:'Open Sans', sans-serif;
+    text-align:center;
+    color:#fff;
+    font-size:14px;
+}
+
+.botao_finalizarPedido:hover{
+    background-color:#72ce5f;
+}

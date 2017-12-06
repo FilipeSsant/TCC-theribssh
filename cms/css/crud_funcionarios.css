@@ -1,0 +1,243 @@
+#tabela_crud_titulos{
+    width:1130px;
+    height:50px;
+    background-color:red;
+    margin-left:auto;
+    margin-right: auto;
+    margin-top:100px;
+}
+
+.tabela_crud_conteudo{
+    width:1130px;
+    height:50px;
+    margin-left:auto;
+    margin-right: auto;
+}
+
+#titulo_cargos{
+    width:375px;
+    height:30px;
+    padding:10px;
+    background-color:#6d79da;
+    border-bottom:10px solid #979fe2;
+
+    /*Formatação da Fonte*/
+    font-family:'Open Sans', sans-serif;
+    text-align:center;
+    color:#fff;
+    font-size:16px;
+    line-height:30px;
+}
+
+.conteudo_colunaPoucosCampos{
+    width:300px;
+    height:60px;
+    padding:10px;
+    background-color:#f4f4f4;
+    display:flex;
+    align-items:center;
+    float:left;
+
+    /*Formatação da Fonte*/
+    font-family:'Open Sans', sans-serif;
+    text-align:center;
+    color:#000;
+    font-size:16px;
+    line-height:30px;
+}
+
+.conteudo_coluna, .conteudo_colunaObs{
+    width:180px;
+    height:60px;
+    padding:10px;
+    background-color:#f4f4f4;
+    display:flex;
+    align-items:center;
+    float:left;
+
+    /*Formatação da Fonte*/
+    font-family:'Open Sans', sans-serif;
+    text-align:center;
+    color:#000;
+    font-size:16px;
+    line-height:30px;
+}
+
+.centralizar_texto{
+    margin-left:auto;
+    margin-right:auto;
+}
+
+.coluna_3opcoes{
+    width:290px;
+    height:80px;
+    background-color:#f4f4f4;
+    float:left;
+
+    /*Formatação da Fonte*/
+    font-family:'Open Sans', sans-serif;
+    text-align:center;
+    color:#000;
+    font-size:16px;
+    line-height:30px;
+}
+
+.opcao_registro{
+    width:96px;
+    height:80px;
+    cursor:pointer;
+    float:left;
+}
+
+.imagem_opcao{
+    width:96px;
+    height:80px;
+    display:flex;
+    align-items:center;
+}
+
+.imagem_opcao img{
+    width:30px;
+    height:30px;
+    cursor:pointer;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+/*Pop UP*/
+#div_foraCadastro{
+    width:820px;
+    height:1550px;
+    position:absolute;
+    background-color:#200b00;
+    z-index:101;
+    margin:auto;
+    top:0;
+    bottom:0;
+    right:0;
+    left:0;
+    display:none;
+    margin-top: 125px;
+}
+
+#div_cadastro{
+    width:95%;
+    height:1500px;
+    background-color:#fff;
+    margin:auto;
+    margin-top:25px;
+}
+
+#div_mostrarImagem{
+    width:200px;
+    height: 200px;
+    position:absolute;
+    z-index:101;
+    margin:auto;
+    top:0;
+    bottom:0;
+    right:0;
+    background-color: rgba(255, 255, 255, 0.5);
+    display:none;
+    float:left;
+}
+
+.imagemPreview, .imagemPreview img{
+    width:100%;
+    height: 200px;
+}
+
+.radio_button{
+    margin-top:13px;
+    margin-right:5px;
+    border:0px;
+    cursor:pointer;
+}
+
+.texto_radio{
+    /*Formatação da Fonte*/
+    font-family:'Open Sans', sans-serif;
+    font-size:15px;
+    cursor:pointer;
+}
+
+.div_radio{
+    width:325px;
+    height:40px;
+    margin-left:auto;
+    margin-right:auto;
+    background-color:#f9f9f9;
+}
+
+.select{
+    width:325px;
+    height:30px;
+    margin-top:20px;
+    text-align:center;
+
+    /*Formatação da Fonte*/
+    font-family:'Open Sans', sans-serif;
+    font-size:14px;
+}
+
+.asterisco{
+    font-family:'Open Sans', sans-serif;
+    font-size:14px;
+    position:absolute;
+    margin-top:23px;
+    margin-left:5px;
+    color:red;
+}
+
+#alerta_preenchimento{
+    width:300px;
+    height:40px;
+    margin-left:auto;
+    margin-right:auto;
+    margin-top:10px;
+    padding:10px;
+    background-color:#441a1a;
+
+    /*Formatação da Fonte*/
+    font-family:'Open Sans', sans-serif;
+    font-size:14px;
+    color:#fff;
+    text-align:center;
+}
+
+/*Div de condições: se existe ou não*/
+.div_condicao{
+    width:30px;
+    height:30px;
+    position:absolute;
+    margin:auto;
+    margin-top:-31px;
+    margin-left:520px;
+}
+
+.div_condicao img{
+    width:20px;
+    height:20px;
+    margin-top:5px;
+}
+
+.ver_senha{
+    width:30px;
+    height:30px;
+    position:absolute;
+    margin:auto;
+    margin-top:-31px;
+    margin-left:520px;
+}
+
+.ver_senha img{
+    width:15px;
+    height:15px;
+    margin-top:9px;
+}
+
+#input_comissao{
+    margin-left: auto;
+    margin-right: auto;
+    display:none;
+}

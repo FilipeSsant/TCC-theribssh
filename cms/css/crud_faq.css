@@ -1,0 +1,87 @@
+#tabela_crud_titulos{
+    width:835px;
+    height:50px;
+    background-color:red;
+    margin-left:auto;
+    margin-right: auto;
+    margin-top:100px;
+}
+
+.tabela_crud_conteudo{
+    width:836px;
+    height:50px;
+    margin-left:auto;
+    margin-right: auto;
+}
+
+#div_foraCadastro{
+    width:820px;
+    height:570px;
+    position:absolute;
+    background-color:#200b00;
+    z-index:101;
+    margin:auto;
+    top:0;
+    bottom:0;
+    right:0;
+    left:0;
+    display:none;
+}
+
+#div_cadastro{
+    width:95%;
+    height:520px;
+    background-color:#fff;
+    margin:auto;
+    margin-top:25px;
+}
+
+.conteudo_colunaObs{
+    width:300px;
+    height:70px;
+    overflow:auto;
+}
+
+.div_textoConteudoObs{
+    width:280px;
+    min-height:70px;
+    max-height:auto;
+    display:flex;
+    align-items:center;
+
+    /*Formatação da Fonte*/
+    font-family:'Open Sans', sans-serif;
+    color:#000;
+    font-size:16px;
+}
+
+.span_centralizar{
+    margin-left:auto;
+    margin-right:auto;
+}
+
+.opcao_registro{
+    width:97px;
+    height:110px;
+    float:left;
+}
+
+.imagem_opcao{
+    width:98px;
+    height:50px;
+    margin-top:20px;
+}
+
+.coluna_2opcoes{
+    width:196px;
+    height:90px;
+    background-color:#f4f4f4;
+    float:left;
+
+    /*Formatação da Fonte*/
+    font-family:'Open Sans', sans-serif;
+    text-align:center;
+    color:#000;
+    font-size:16px;
+    line-height:30px;
+}

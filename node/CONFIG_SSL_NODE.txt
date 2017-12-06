@@ -1,0 +1,5 @@
+SETLOCAL
+SET npm_config_strict-ssl=false
+npm install npm -g --ca=null
+npm --version
+ENDLOCAL

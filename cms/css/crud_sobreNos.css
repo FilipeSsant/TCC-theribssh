@@ -1,0 +1,148 @@
+#tabela_crud_titulos{
+    width:1010px;
+    height:50px;
+    background-color:red;
+    margin-left:auto;
+    margin-right: auto;
+    margin-top:100px;
+}
+
+.tabela_crud_conteudo{
+    width:1011px;
+    height:80px;
+    margin-left:auto;
+    margin-right: auto;
+}
+
+#div_foraCadastro{
+    width:820px;
+    height:620px;
+    position:absolute;
+    background-color:#200b00;
+    z-index:101;
+    margin:auto;
+    top:0;
+    bottom:0;
+    right:0;
+    left:0;
+    display:none;
+}
+
+#div_cadastro{
+    width:95%;
+    height:570px;
+    background-color:#fff;
+    margin:auto;
+    margin-top:25px;
+}
+
+#div_mostrarImagem{
+    width:400px;
+    height:215px;
+    position:absolute;
+    z-index:101;
+    margin:auto;
+    top:0;
+    bottom:0;
+    right:0;
+    background-color: rgba(255, 255, 255, 0.5);
+    display:none;
+    float:left;
+}
+
+.imagemPreview, .imagemPreview img{
+    width:100%;
+    height:215px;
+}
+
+#titulo_cargos{
+    width:375px;
+    height:30px;
+    padding:10px;
+    background-color:#6d79da;
+    border-bottom:10px solid #979fe2;
+
+    /*Formatação da Fonte*/
+    font-family:'Open Sans', sans-serif;
+    text-align:center;
+    color:#fff;
+    font-size:16px;
+    line-height:30px;
+}
+
+.conteudo_coluna{
+    width:180px;
+    height:90px;
+    padding:10px;
+    background-color:#f4f4f4;
+    float:left;
+
+    /*Formatação da Fonte*/
+    font-family:'Open Sans', sans-serif;
+    text-align:center;
+    color:#000;
+    font-size:16px;
+    line-height:80px;
+}
+
+/*Mudar scroll*/
+.conteudo_colunaObs::-webkit-scrollbar-track {
+    background-color: #200b00;
+}
+.conteudo_colunaObs::-webkit-scrollbar {
+    width: 6px;
+    background: #200b00;
+}
+.conteudo_colunaObs::-webkit-scrollbar-thumb {
+    background: #200b00;
+}
+
+.conteudo_colunaObs{
+    width:500px;
+    height:90px;
+    overflow:auto;
+}
+
+.div_textoConteudoObs{
+    width:500px;
+    min-height:90px;
+    max-height:auto;
+
+    /*Formatação da Fonte*/
+    font-family:'Open Sans', sans-serif;
+    text-align:center;
+    color:#000;
+    font-size:16px;
+}
+
+.titulo_colunaObs{
+    width:500px;
+    height:30px;
+    padding:10px;
+    background-color:#00;
+    float:left;
+
+    /*Formatação da Fonte*/
+    font-family:'Open Sans', sans-serif;
+    text-align:center;
+    color:#fff;
+    font-size:16px;
+    line-height:30px;
+}
+
+.span_centralizar{
+    margin-left:auto;
+    margin-right:auto;
+}
+
+.opcao_registro{
+    width:97px;
+    height:110px;
+    float:left;
+}
+
+.imagem_opcao{
+    width:98px;
+    height:50px;
+    margin-top:30px;
+}

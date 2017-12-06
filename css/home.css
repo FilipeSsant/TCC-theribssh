@@ -1,0 +1,949 @@
+@media screen and (min-width: 1280px){
+    body{
+    }
+    /*Conteúdo*/
+    section{
+        width: 100%;
+        max-width: 2000px;
+        margin-left: auto;
+        margin-right: auto;
+        height: 2800px;
+    }
+
+    /*Video e Barra de Pesquisa*/
+    #div_video{
+        width:100%;
+        height:1100px;
+    }
+
+    #div_videoBarraDePesquisa{
+        width:100%;
+        height:800px;
+        position:relative;
+        z-index:1;
+    }
+
+    #foto_teste{
+        width: 99%;
+    }
+
+    #div_pesquisa{
+        width:896px;
+        height:35px;
+        position:relative;
+        z-index:2;
+        margin-left:auto;
+        margin-right:auto;
+        margin-top:-450px;
+        background-color:#ffffff;
+    }
+
+    #caixa_pesquisa{
+        width:830px;
+        height:100%;
+        border:0px;
+        background-color:#ffffff;
+        margin-top: 1px;
+        /*Formatação da Fonte*/
+        font-family:'Open Sans', sans-serif;
+        font-size:15px;
+        color:#4f4f4f;
+    }
+
+    /*Calendario*/
+    #div_calendario{
+        width:100%;
+        height:250px;
+    }
+
+    #setas_calendario{
+        width:100%;
+        height:50px;
+        position:relative;
+
+       -webkit-user-select: none;
+       -khtml-user-select: none;
+       -moz-user-select: none;
+       -ms-user-select: none;
+       user-select: none;
+
+    }
+
+    .anterior, .proximo{
+        width:50px;
+        height:50px;
+        display:flex;
+        align-items:center;
+        cursor:pointer;
+        float:left;
+
+        font-size:35px;
+    }
+
+    .proximo{
+        margin-left:679px;
+    }
+
+    .div_mes{
+        width:100%;
+        height:150px;
+        display:flex;
+        align-items:center;
+        /*Formatação da Fonte*/
+        font-style:italic;
+        font-size:35px;
+    }
+
+    .divDia_semana{
+        width:100%;
+        height:50px;
+    }
+
+    .dia_semana{
+        width:14%;
+        height:100%;
+        display:flex;
+        align-items:center;
+        border-right:2px solid #ffffff;
+        /*Formatação da Fonte*/
+        font-family:'Open Sans', sans-serif;
+        font-size:15px;
+        float:left;
+    }
+
+    .dia_semana:last-child{
+        border-right:0px;
+    }
+
+    .divDia_mes{
+        width:100%;
+        height:365px;
+        background-color:#f9f9f9;
+    }
+
+    .div_dia{
+        width:111px;
+        height:60px;
+        display:flex;
+        align-items:center;
+        float:left;
+    }
+
+    .dia{
+        width:49px;
+        height: 49px;
+        border-radius:50%;
+        margin-left:auto;
+        margin-right:auto;
+        display:flex;
+        align-items:center;
+
+        float:left;
+
+        /*Formatação da Fonte*/
+        font-family:'Open Sans', sans-serif;
+        font-size:15px;
+    }
+
+    .centralizar_texto{
+        margin-left:auto;
+        margin-right:auto;
+    }
+
+    #div_caixa_pesquisa{
+        width:834px;
+        height:30px;
+        margin-left:5px;
+        border:0px;
+        background-color:#ffffff;
+        float:left;
+        /*Formatação da Fonte*/
+        font-family:'Open Sans', sans-serif;
+        font-size:15px;
+        color:#4f4f4f;
+    }
+
+    #div_reservas{
+        width:896px;
+        height:0px;
+        opacity:0;
+        background-color:rgba(0, 0, 0, 0.5);
+        z-index:0;
+        overflow:auto;
+        position:absolute;
+    }
+
+    .reserva{
+        width:100%;
+        height: 300px;
+        float: left;
+        background-color: #fff;
+    }
+
+    .foto_restaurante{
+        width:25%;
+        height: 300px;
+        float: left;
+    }
+
+    .foto_restaurante img{
+        width:100%;
+        height: 300px;
+    }
+
+    .div_nomeEndRestaurante{
+        width:75%;
+        height:80px;
+        float:left;
+        /*Formatação da Fonte*/
+        font-style: italic;
+        text-align:center;
+    }
+
+    .nome_res, .end_res{
+        width:100%;
+        height:40px;
+        /*Formatação da Fonte*/
+        font-size:25px;
+        line-height:40px;
+    }
+
+    .end_res{
+        font-size:18px;
+        color:#000;
+    }
+
+    .descricao_restaurante{
+        width:50%;
+        height:220px;
+        float:left;
+    }
+
+    .texto_descricaoRes{
+        width:95%;
+        height:180px;
+        margin-left:auto;
+        margin-right:auto;
+        padding:20px;
+        display:flex;
+        align-items:center;
+        /*Formatação da Fonte*/
+        font-family:'Open Sans', sans-serif;
+        text-align:center;
+        font-size:15px;
+        color:#000;
+    }
+
+    .centra_txt, .centralizar_botao{
+        margin-left:auto;
+        margin-right:auto;
+    }
+
+    .div_botaoReserva{
+        width:25%;
+        height:220px;
+        display:flex;
+        align-items:center;
+        float:left;
+    }
+
+    .botao_reservar{
+        width:250px;
+        height:60px;
+        margin-left:auto;
+        margin-right:auto;
+        display:flex;
+        align-items:center;
+        cursor:pointer;
+        border:0;
+        /*Formatação da Fonte*/
+        font-family:'Open Sans', sans-serif;
+        text-align:center;
+        font-size:15px;
+    }
+
+    #botao_pesquisa{
+        width:57px;
+        height:35px;
+        border:0px;
+        cursor:pointer;
+        /*Formatação da Fonte*/
+        font-family:'Open Sans', sans-serif;
+        text-align:center;
+        font-size:15px;
+    }
+
+    #botao_pesquisa img{
+        width:18px;
+        height:18px;
+        margin-top: 2px;
+    }
+
+    /*Menus*/
+
+    #menus{
+      width: 83%;
+      height: 630px;
+      margin-top: 1%;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    #titulo_menus{
+        width:100%;
+        height:120px;
+        margin-top:10px;
+        margin-left: auto;
+        margin-right: auto;
+
+        /*Formatação da Fonte*/
+        font-style: italic;
+        text-align:center;
+        font-size:60px;
+        line-height:120px;
+    }
+
+    #linha_abaixoTitulo{
+        width:180px;
+        height:2px;
+        margin-top:-30px;
+        margin-left:auto;
+        margin-right:auto;
+    }
+
+    #div_menus{
+      width: 100%;
+      height: 600px;
+      margin-top: 3%;
+    }
+
+    .menu{
+      width: 30%;
+      height: 600px;
+      float: left;
+      margin-left: 2%;
+      margin-right: 1%;
+    }
+
+    .menu img{
+      height: 100%;
+      width: 100%;
+    }
+
+    .menu{
+      overflow: hidden;
+      position: relative;
+    }
+
+    .menu > img {
+       width: 100%;
+        -webkit-transition: all .8s cubic-bezier(.190, 1.000, .220, 1.000);
+        -moz-transition: all .8s cubic-bezier(.190, 1.000, .220, 1.000);
+        -ms-transition: all .8s cubic-bezier(.190, 1.000, .220, 1.000);
+        -o-transition: all .8s cubic-bezier(.190, 1.000, .220, 1.000);
+        transition: all .8s cubic-bezier(.190, 1.000, .220, 1.000);
+    }
+
+    .menu:hover > img {
+        -webkit-transform: scale(1.5);
+        -moz-transform: scale(1.5);
+        -ms-transform: scale(1.5);
+        -o-transform: scale(1.5);
+        transform: scale(1.5);
+    }
+
+    .menu .nome_menu{
+        position: absolute;
+      width: 100%;
+      height: 100%;
+      top: 0;
+      left: 0;
+      opacity: 0;
+      background: none repeat scroll 0 0 rgba(0, 0, 0, 0.5);
+      border-radius: 2px;
+      text-align: center;
+      padding-top: 60%;
+
+      -webkit-transition:	 all .8s cubic-bezier(.190, 1.000, .220, 1.000);
+      -moz-transition: all .8s cubic-bezier(.190, 1.000, .220, 1.000);
+      -ms-transition: all .8s cubic-bezier(.190, 1.000, .220, 1.000);
+      -o-transition: all .8s cubic-bezier(.190, 1.000, .220, 1.000);
+      transition: all .8s cubic-bezier(.190, 1.000, .220, 1.000);
+    }
+    .menu:hover .nome_menu {
+        opacity: 1;
+        box-shadow: inset 0 0 100px 50px rgba(0,0,0,.0);
+
+    }
+    .menu .nome_menu p {
+        color: #fff;
+      font-style: italic;
+      text-align:center;
+      font-size:60px;
+    }
+
+    /* Resumo Sobre Nós na Home*/
+
+    #div_resumoSobreNos{
+        width:100%;
+        height:920px;
+        margin-top: 1%;
+        margin-left: auto;
+        margin-right: auto;
+        z-index: -10;
+    }
+
+    #div_texto_sobreNos{
+        width: 900px;
+        height: 420px;
+        z-index: 30;
+        padding: 30px;
+        background-color: rgba(255, 255, 255, 0.7);
+        position: absolute;
+        margin-top: 20px;
+        margin-left: 15px;
+    }
+
+    #botao_paraSn{
+        width:300px;
+        height:60px;
+        margin-top:20px;
+        margin-left:auto;
+        margin-right:auto;
+
+        /*Formatação da Fonte*/
+        font-style: italic;
+        text-align:center;
+        font-size:28px;
+        line-height:60px;
+
+    }
+
+    #titulo{
+        width:70%;
+        height:70px;
+        margin-top:10px;
+        border-bottom: 1px solid #462D19;
+        margin-left: auto;
+        margin-right: auto;
+
+        /*Formatação da Fonte*/
+        font-style: italic;
+        text-align:center;
+        font-size:60px;
+        line-height:90px;
+    }
+
+    #subtitulo{
+        width:100%;
+        height:40px;
+        margin-top: 2%;
+
+        /*Formatação da Fonte*/
+        font-style: italic;
+        font-weight: bold;
+        text-align:center;
+        font-size:30px;
+    }
+
+    #texto_sobreNos{
+        width:80%;
+        height:auto;
+        margin-left:auto;
+        margin-right:auto;
+        margin-top:20px;
+
+        /*Formatação da Fonte*/
+        font-family:'Open Sans', sans-serif;
+        text-align:center;
+        font-size:21px;
+    }
+
+    #botao_redirecionar_sobreNos, #texto_botao_redirecionar_sobreNos{
+        width:30%;
+        height:80px;
+        margin-left:auto;
+        margin-right:auto;
+        margin-top:10px;
+        text-align:center;
+
+        /*Formatação da Fonte*/
+        font-family:'Open Sans', sans-serif;
+        color:#fff;
+        line-height:80px;
+        font-size:20px;
+    }
+}
+
+@media screen and (min-device-width: 300px) and (max-device-width: 400px)  and (orientation:portrait){
+    body{
+    }
+    /*Conteúdo*/
+    section{
+        width: 100%;
+        height: auto;
+    }
+
+    /*Video e Barra de Pesquisa*/
+    #div_video{
+        width:100%;
+        height:600px;
+    }
+
+    #div_videoBarraDePesquisa{
+        width:100%;
+        height:600px;
+        position:relative;
+        z-index:1;
+    }
+
+    #foto_teste{
+        width: 99%;
+    }
+
+    #div_pesquisa{
+        width: 100%;
+        height: 80px;
+        position:relative;
+        z-index:2;
+        margin-left:auto;
+        margin-right:auto;
+        margin-top:-450px;
+        background-color:#ffffff;
+        margin-top: -600px;
+        z-index: 130;
+    }
+
+    #selectPeriodo, #selectMesa{
+        width: 720px;
+        height: 66px;
+        margin-top: 20px;
+        font-family: 'Open Sans', sans-serif;
+        font-size: 33px;
+    }
+
+    #caixa_pesquisa{
+        width:830px;
+        height:100%;
+        border:0px;
+        background-color:#ffffff;
+        margin-top: 1px;
+        /*Formatação da Fonte*/
+        font-family:'Open Sans', sans-serif;
+        font-size:30px;
+        color:#4f4f4f;
+    }
+
+    /*Calendario*/
+    #div_calendario{
+        width:100%;
+        height:275px;
+    }
+
+    #setas_calendario{
+        width:100%;
+        height:76px;
+        position:relative;
+
+       -webkit-user-select: none;
+       -khtml-user-select: none;
+       -moz-user-select: none;
+       -ms-user-select: none;
+       user-select: none;
+
+    }
+
+    .anterior, .proximo{
+        width:50px;
+        height:76px;
+        display:flex;
+        align-items:center;
+        cursor:pointer;
+        float:left;
+
+        font-size:50px;
+    }
+
+    .proximo{
+        margin-left:831px;
+    }
+
+    .div_mes{
+        width:100%;
+        height:150px;
+        display:flex;
+        align-items:center;
+        /*Formatação da Fonte*/
+        font-style:italic;
+        font-size:45px;
+    }
+
+    .divDia_semana{
+        width:100%;
+        height:50px;
+    }
+
+    .dia_semana{
+        width:14%;
+        height:100%;
+        display:flex;
+        align-items:center;
+        border-right:2px solid #ffffff;
+        /*Formatação da Fonte*/
+        font-family:'Open Sans', sans-serif;
+        font-size:21px;
+        float:left;
+    }
+
+    .dia_semana:last-child{
+        border-right:0px;
+    }
+
+    .divDia_mes{
+        width:100%;
+        height:538px;
+        background-color:#f9f9f9;
+    }
+
+    .div_dia{
+        width:132px;
+        height:90px;
+        display:flex;
+        align-items:center;
+        float:left;
+    }
+
+    .dia{
+        width: 70px;
+        height: 70px;
+        border-radius:50%;
+        margin-left:auto;
+        margin-right:auto;
+        display:flex;
+        align-items:center;
+
+        float:left;
+
+        /*Formatação da Fonte*/
+        font-family:'Open Sans', sans-serif;
+        font-size:20px;
+    }
+
+    .centralizar_texto{
+        margin-left:auto;
+        margin-right:auto;
+    }
+
+    #div_caixa_pesquisa{
+        width: 840px;
+        height: 50px;
+        margin-top: 15px;
+        margin-left: 40px;
+        border:0px;
+        background-color:#ffffff;
+        float:left;
+        /*Formatação da Fonte*/
+        font-family:'Open Sans', sans-serif;
+        font-size:15px;
+        color:#4f4f4f;
+
+    }
+
+    #div_reservas{
+        width:100%;
+        height:0px;
+        opacity:0;
+        background-color:rgba(0, 0, 0, 0.5);
+        z-index:0;
+        position:absolute;
+        overflow:auto;
+    }
+
+    .reserva{
+        width:100%;
+        height: 365px;
+        float: left;
+        background-color: #fff;
+    }
+
+    .foto_restaurante{
+        width:41%;
+        height: 300px;
+        float: left;
+    }
+
+    .foto_restaurante img{
+        width:100%;
+        height: 300px;
+    }
+
+    .div_nomeEndRestaurante{
+        width:59%;
+        height:80px;
+        float:left;
+        /*Formatação da Fonte*/
+        font-style: italic;
+        text-align:center;
+    }
+
+    .nome_res, .end_res{
+        width: 100%;
+        height: 46px;
+        font-size: 22px;
+        line-height: 46px;
+    }
+
+    .end_res{
+        font-size:20px;
+        color:#000;
+    }
+
+    .descricao_restaurante{
+        width:59%;
+        height:220px;
+        float:left;
+    }
+
+    .texto_descricaoRes{
+        width:93%;
+        height:180px;
+        margin-left:auto;
+        margin-right:auto;
+        padding:20px;
+        display:flex;
+        align-items:center;
+        /*Formatação da Fonte*/
+        font-family:'Open Sans', sans-serif;
+        text-align:center;
+        font-size:22px;
+        color:#000;
+    }
+
+    .centra_txt, .centralizar_botao{
+        margin-left:auto;
+        margin-right:auto;
+    }
+
+    .div_botaoReserva{
+        width:100%;
+        height:65px;
+        display:flex;
+        align-items:center;
+        float:left;
+    }
+
+    .botao_reservar{
+        width: 250px;
+        height: 47px;
+        margin-left: auto;
+        margin-right: auto;
+        display:flex;
+        align-items:center;
+        cursor: pointer;
+        border: 0;
+        font-family: 'Open Sans', sans-serif;
+        text-align: center;
+        font-size: 20px;
+    }
+
+    #botao_pesquisa{
+        width: 100px;
+        height: 80px;
+        border:0px;
+        cursor:pointer;
+        /*Formatação da Fonte*/
+        font-family:'Open Sans', sans-serif;
+        text-align:center;
+        font-size:15px;
+    }
+
+    #botao_pesquisa img{
+        width:18px;
+        height:18px;
+        margin-top: 2px;
+    }
+
+    /*Menus*/
+
+    #menus{
+      width: 100%;
+      height: auto;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    #titulo_menus{
+        width:100%;
+        height:120px;
+        margin-left: auto;
+        margin-right: auto;
+
+        /*Formatação da Fonte*/
+        font-style: italic;
+        text-align:center;
+        font-size:50px;
+        line-height:120px;
+    }
+
+    #linha_abaixoTitulo{
+        width: 162px;
+        height: 3px;
+        margin-top:-30px;
+        margin-left:auto;
+        margin-right:auto;
+    }
+
+    #div_menus{
+      width: 100%;
+      height: 600px;
+    }
+
+    .menu{
+      width: 33.32%;
+      height: 600px;
+      float:left;
+    }
+
+    .menu img{
+      height: 100%;
+      width: 100%;
+    }
+
+    .menu{
+      overflow: hidden;
+      position: relative;
+    }
+
+    .menu > img {
+       width: 100%;
+        -webkit-transition: all .8s cubic-bezier(.190, 1.000, .220, 1.000);
+        -moz-transition: all .8s cubic-bezier(.190, 1.000, .220, 1.000);
+        -ms-transition: all .8s cubic-bezier(.190, 1.000, .220, 1.000);
+        -o-transition: all .8s cubic-bezier(.190, 1.000, .220, 1.000);
+        transition: all .8s cubic-bezier(.190, 1.000, .220, 1.000);
+    }
+
+    .menu:hover > img {
+        -webkit-transform: scale(1.5);
+        -moz-transform: scale(1.5);
+        -ms-transform: scale(1.5);
+        -o-transform: scale(1.5);
+        transform: scale(1.5);
+    }
+
+    .menu .nome_menu{
+        position: absolute;
+      width: 100%;
+      height: 100%;
+      top: 0;
+      left: 0;
+      opacity: 0;
+      background: none repeat scroll 0 0 rgba(0, 0, 0, 0.5);
+      border-radius: 2px;
+      text-align: center;
+      padding-top: 60%;
+
+      -webkit-transition:	 all .8s cubic-bezier(.190, 1.000, .220, 1.000);
+      -moz-transition: all .8s cubic-bezier(.190, 1.000, .220, 1.000);
+      -ms-transition: all .8s cubic-bezier(.190, 1.000, .220, 1.000);
+      -o-transition: all .8s cubic-bezier(.190, 1.000, .220, 1.000);
+      transition: all .8s cubic-bezier(.190, 1.000, .220, 1.000);
+    }
+    .menu:hover .nome_menu {
+        opacity: 1;
+        box-shadow: inset 0 0 100px 50px rgba(0,0,0,.0);
+
+    }
+    .menu .nome_menu p {
+        color: #fff;
+      font-style: italic;
+      text-align:center;
+      margin-top: 69px;
+      font-size:50px;
+    }
+
+    /* Resumo Sobre Nós na Home*/
+
+    #div_resumoSobreNos{
+        width:100%;
+        height:560px;
+        margin-top: 1%;
+        margin-left: auto;
+        margin-right: auto;
+        z-index: -10;
+    }
+
+    #div_texto_sobreNos{
+        width: 91%;
+        height: 460px;
+        z-index: 30;
+        padding: 30px;
+        background-color: rgba(255, 255, 255, 0.7);
+        position: absolute;
+        margin-top: 20px;
+        margin-left: 15px;
+    }
+
+    #botao_paraSn{
+        width: 380px;
+        height: 91px;
+        margin-top: 20px;
+        margin-left: auto;
+        margin-right: auto;
+        font-style: italic;
+        text-align: center;
+        font-size: 34px;
+        line-height: 91px
+    }
+
+    #titulo{
+        width: 95%;
+        height: 75px;
+        margin-top: 10px;
+        border-bottom: 1px solid #462D19;
+        margin-left: auto;
+        margin-right: auto;
+        font-style: italic;
+        text-align: center;
+        font-size: 74px;
+        line-height: 90px;
+    }
+
+    #subtitulo{
+        width: 100%;
+        height: 40px;
+        margin-top: 2%;
+        font-style: italic;
+        font-weight: bold;
+        text-align: center;
+        font-size: 40px;
+    }
+
+    #texto_sobreNos{
+        width:80%;
+        height:auto;
+        margin-left:auto;
+        margin-right:auto;
+        margin-top:20px;
+
+        /*Formatação da Fonte*/
+        font-family:'Open Sans', sans-serif;
+        text-align:center;
+        font-size: 31px;
+    }
+
+    #botao_redirecionar_sobreNos, #texto_botao_redirecionar_sobreNos{
+        width:30%;
+        height:80px;
+        margin-left:auto;
+        margin-right:auto;
+        margin-top:10px;
+        text-align:center;
+
+        /*Formatação da Fonte*/
+        font-family:'Open Sans', sans-serif;
+        color:#fff;
+        line-height:80px;
+        font-size:20px;
+    }
+}

@@ -1,0 +1,107 @@
+#tabela_crud_titulos{
+    width:1010px;
+    height:50px;
+    background-color:red;
+    margin-left:auto;
+    margin-right: auto;
+}
+
+.tabela_crud_conteudo{
+    width:1010px;
+    height:80px;
+    margin-left:auto;
+    margin-right: auto;
+}
+
+#botao_verAprovadas{
+    -moz-transition:0.3s;
+    -webkit-transition:0.3s;
+    width:80px;
+    height:80px;
+    border:0px;
+    top: 150px;
+    left: 530px;
+    position:absolute;
+    background-color:#441a1a;
+    cursor:pointer;
+}
+
+#botao_verAprovadas:hover{
+    background-color:#200b00;
+}
+
+#botao_verAprovadas img{
+    width:40px;
+    height:40px;
+}
+
+#div_tituloTabela{
+    width:1010px;
+    height:50px;
+    background-color:#200b00;
+    margin-left:auto;
+    margin-right: auto;
+    margin-top:100px;
+
+    /*Formatação da Fonte*/
+    font-family:'Open Sans', sans-serif;
+    font-size:20px;
+    text-align:center;
+    color:#fff;
+    line-height:50px;
+}
+
+#tabela_crud_titulos2{
+    width:815px;
+    height:50px;
+    background-color:red;
+    margin-left:auto;
+    margin-right: auto;
+}
+
+#tabela_crud_conteudo2{
+    width:816px;
+    height:80px;
+    margin-left:auto;
+    margin-right: auto;
+}
+
+#div_tituloTabela2{
+    width:815px;
+    height:50px;
+    background-color:#441a1a;
+    margin-left:auto;
+    margin-right: auto;
+    margin-top:50px;
+
+    /*Formatação da Fonte*/
+    font-family:'Open Sans', sans-serif;
+    font-size:20px;
+    text-align:center;
+    color:#fff;
+    line-height:50px;
+}
+
+/*Pop UP*/
+#div_foraCadastro{
+    width:820px;
+    height:970px;
+    position:absolute;
+    background-color:#7685f7;
+    z-index:101;
+    margin:auto;
+    margin-top:50px;
+    top:0;
+    bottom:0;
+    right:0;
+    left:0;
+    display:none;
+}
+
+#div_cadastro{
+    width:95%;
+    height:920px;
+    background-color:#fff;
+    margin:auto;
+    margin-top:25px;
+}

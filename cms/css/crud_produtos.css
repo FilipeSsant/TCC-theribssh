@@ -1,0 +1,242 @@
+#tabela_crud_titulos{
+    width:1164px;
+    height:50px;
+    background-color:red;
+    margin-left:auto;
+    margin-right: auto;
+    margin-top:100px;
+}
+
+.tabela_crud_conteudo{
+    width:1164px;
+    height:188px;
+    margin-left:auto;
+    margin-right: auto;
+}
+
+/*Pop UP*/
+#div_foraCadastro{
+    width:820px;
+    height:1000px;
+    position:absolute;
+    background-color:#200b00;
+    z-index:101;
+    margin:auto;
+    top:0;
+    bottom:0;
+    right:0;
+    left:0;
+    display:none;
+    margin-top: 125px;
+}
+
+#div_cadastro{
+    width:95%;
+    height:950px;
+    background-color:#fff;
+    margin:auto;
+    margin-top:25px;
+}
+
+#div_mostrarImagem{
+    width:355px;
+    height: 300px;
+    position:absolute;
+    z-index:101;
+    margin:auto;
+    top:0;
+    bottom:0;
+    right:0;
+    background-color: rgba(255, 255, 255, 0.5);
+    display:none;
+    float:left;
+}
+
+.imagemPreview, .imagemPreview img{
+    width:100%;
+    height: 300px;
+}
+
+.conteudo_colunaPoucosCampos{
+    width:299px;
+    height:168px;
+    padding:10px;
+    float:left;
+
+    /*Formatação da Fonte*/
+    font-family:'Open Sans', sans-serif;
+    text-align:center;
+    color:#000;
+    font-size:16px;
+    line-height:168px;
+}
+
+.conteudo_coluna{
+    width:180px;
+    height:168px;
+    padding:10px;
+    background-color:#f4f4f4;
+    float:left;
+
+    /*Formatação da Fonte*/
+    font-family:'Open Sans', sans-serif;
+    text-align:center;
+    color:#000;
+    font-size:16px;
+    line-height:168px;
+}
+
+.titulo_colunaImagem{
+    width:240px;
+    height:30px;
+    padding:10px;
+    background-color:#000;
+    float:left;
+
+    /*Formatação da Fonte*/
+    font-family:'Open Sans', sans-serif;
+    text-align:center;
+    color:#fff;
+    font-size:16px;
+    line-height:30px;
+}
+
+.conteudo_colunaImagem{
+    width:240px;
+    height:168px;
+    padding:10px;
+    background-color:#f4f4f4;
+    float:left;
+}
+
+.tabela_conteudoVideoImagem{
+    width:239px;
+    height:168px;
+}
+
+.tabela_conteudoVideoImagem img{
+    width:239px;
+    height:168px;
+}
+
+.opcao_registro{
+    width:96px;
+    height:110px;
+    float:left;
+}
+
+.imagem_opcao{
+    width:98px;
+    height:50px;
+    margin-top:70px;
+}
+
+.coluna_4opcoes{
+    width:384px;
+    height:188px;
+    background-color:#f4f4f4;
+    float:left;
+
+    /*Formatação da Fonte*/
+    font-family:'Open Sans', sans-serif;
+    text-align:center;
+    color:#000;
+    font-size:16px;
+    line-height:30px;
+}
+
+#div_foraAdicionar{
+    width:820px;
+    height:500px;
+    position:absolute;
+    background-color:#200b00;
+    z-index:101;
+    margin:auto;
+    top:0;
+    bottom:0;
+    right:0;
+    left:0;
+    display:none;
+    float:left;
+}
+
+#div_adicionar{
+    width:95%;
+    height:450px;
+    background-color:#fff;
+    margin:auto;
+    margin-top:25px;
+}
+
+#div_ingredientesRegistrados{
+    width:300px;
+    height:500px;
+    position:absolute;
+    z-index:101;
+    margin:auto;
+    top:0;
+    bottom:0;
+    right:127px;
+    background-color:#200b00;
+    display:none;
+    float:left;
+}
+
+#conteudo_ingredientesRegistrados{
+    width:85%;
+    height:450px;
+    background-color:#fff;
+    margin:auto;
+    margin-top:25px;
+    overflow:auto;
+}
+
+#titulo_ingredientesRegistrados{
+    width:100%;
+    height:30px;
+    background-color:#441a1a;
+
+    /*Formatação da Fonte*/
+    font-family:'Open Sans', sans-serif;
+    text-align:center;
+    color:#fff;
+    font-size:15px;
+    line-height:30px;
+}
+
+.ingredientesRegistrados{
+    width:100%;
+    height:80px;
+    background-color:#f4f4f4;
+    display:flex;
+    align-items:center;
+
+    /*Formatação da Fonte*/
+    font-family:'Open Sans', sans-serif;
+    color:#000;
+    font-size:10px;
+}
+
+
+.opcoesIngredientes{
+    width:25px;
+    height:25px;
+    margin-top:5px;
+    position:relative;
+
+}
+
+.opcoesIngredientes img{
+    width:25px;
+    height:25px;
+}
+
+.div_opcoesIngredientes{
+    width:25px;
+    height:55px;
+}
+
+.ingredientesRegistrados span{
+    margin-left:auto;
+    margin-right:auto;
+}

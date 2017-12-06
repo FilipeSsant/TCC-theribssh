@@ -1,0 +1,403 @@
+@media screen and (min-width: 1280px){
+    /*Fale conosco*/
+    .titulo{
+
+        /*Formatação da Fonte*/
+        font-size:50px;
+        font-style: italic;
+        text-align:center;
+        line-height:100px;
+    }
+
+    #formulario_fale{
+        width:600px;
+        height:510px;
+        padding:10px;
+        text-align:center;
+        position:relative;
+        z-index:0;
+        margin-left:auto;
+        margin-right:auto;
+    }
+
+    #div_atrasFormulario{
+        width:620px;
+        height:530px;
+        padding:10px;
+        text-align:center;
+        position:relative;
+        z-index:0;
+        margin-left:auto;
+        margin-right:auto;
+    }
+
+    /*Conteúdo*/
+
+    #div_fale{
+        width:100%;
+        height:700px;
+        margin-top:25px;
+    }
+
+    #textArea{
+        resize: none;
+        margin: 10px;
+        width: 320px;
+        height: 100px;
+        text-align:center;
+        margin-top:20px;
+
+        /*Formatação da Fonte*/
+        font-family:'Open Sans', sans-serif;
+        font-size: 15px;
+
+    }
+
+    #div_botoes{
+      width: 350px;
+      height: 50px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    .botao_formularioFaleConosco{
+        width:160px;
+        height:30px;
+        border:0px;
+        margin-top:20px;
+        margin-left:10px;
+        cursor:pointer;
+        float:left;
+
+        /*Formatação da Fonte*/
+        font-family:'Open Sans', sans-serif;
+        font-size:14px;
+    }
+
+    /*FAQ*/
+    .div_tituloFaq{
+        width:640px;
+        height:70px;
+        margin-top:30px;
+        margin-left:auto;
+        margin-right:auto;
+
+        /*Formatação da Fonte*/
+        font-style: italic;
+        text-align:center;
+        font-size:30px;
+        line-height:70px;
+    }
+
+    #div_atrasFaq{
+        width:620px;
+        height:160px;
+        padding:10px;
+        text-align:center;
+        position:relative;
+        z-index:0;
+        margin-left:auto;
+        margin-right:auto;
+    }
+
+    #div_faq{
+        width:600px;
+        height:140px;
+        padding:10px;
+        overflow:auto;
+        text-align:center;
+        position:relative;
+        z-index:0;
+        margin-left:auto;
+        margin-right:auto;
+    }
+
+    .div_pergRespFaq:first-child{
+        margin-top:0px;
+    }
+
+    .div_pergRespFaq{
+        width:100%;
+        height:140px;
+        margin-top:10px;
+        border-bottom:1px solid #d8d8d8;
+    }
+
+    .div_pergRespFaq:last-child{
+        border-bottom:0px;
+    }
+
+    .div_perguntaFaq{
+        width:100%;
+        height:50px;
+
+        /*Formatação da Fonte*/
+        font-family:'Open Sans', sans-serif;
+        text-align:center;
+        font-size:18px;
+        line-height:50px;
+    }
+
+    .div_respostaFaq{
+        width:400px;
+        height:90px;
+        overflow:auto;
+        margin-left:auto;
+        margin-right:auto;
+        display:flex;
+        align-items:center;
+    }
+
+    .resposta_faq{
+        margin-left:auto;
+        margin-right:auto;
+
+        /*Formatação da Fonte*/
+        font-family:'Open Sans', sans-serif;
+        font-size:15px;
+    }
+
+    /*Enquetes*/
+    #botao_flutuanteEnquete{
+        width:130px;
+        height:130px;
+        position:fixed;
+        z-index:2;
+        border-radius:100px;
+        margin-top:-850px;
+        margin-right:20px;
+        cursor:pointer;
+        right:0;
+    }
+
+    #div_icone_enquete{
+        width:60px;
+        height:60px;
+        margin-left:auto;
+        margin-right:auto;
+        margin-top:25px;
+    }
+
+    #div_icone_enquete img{
+        width:60px;
+        height:60px;
+    }
+
+    #div_titulo_enquete{
+        width:60px;
+        height:20px;
+        margin-left:auto;
+        margin-right:auto;
+
+        /*Impedir a seleção de texto*/
+        -webkit-touch-callout: none;
+        -webkit-user-select: none;
+        -khtml-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+
+        /*Formatação da Fonte*/
+        font-style: italic;
+        text-align:center;
+        font-size:17px;
+
+    }
+}
+
+@media screen and (min-device-width: 300px) and (max-device-width: 400px) and (orientation:portrait){
+    /*Fale conosco*/
+    .titulo{
+
+        /*Formatação da Fonte*/
+        font-size:50px;
+        font-style: italic;
+        text-align:center;
+        line-height:100px;
+    }
+
+    #formulario_fale{
+        width:97%;
+        height:945px;
+        padding:10px;
+        margin-top: 2px;
+        text-align:center;
+        position:relative;
+        z-index:0;
+        margin-left:auto;
+        margin-right:auto;
+    }
+
+    #div_atrasFormulario{
+        width:90%;
+        height:970px;
+        padding:10px;
+        text-align:center;
+        position:relative;
+        z-index:0;
+        margin-left:auto;
+        margin-right:auto;
+    }
+
+    /*Conteúdo*/
+
+    #div_fale{
+        width:100%;
+        height:1200px;
+        margin-top:25px;
+    }
+
+    #textArea{
+        resize: none;
+        margin: 10px;
+        width: 500px;
+        height: 200px;
+        text-align: center;
+        margin-top: 20px;
+        border: 1px solid #c8c8c8;
+        font-family: 'Open Sans', sans-serif;
+        font-size: 33px;
+    }
+
+    #div_botoes{
+      width: 500px;
+      height: 50px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    .botao_formularioFaleConosco{
+        width: 500px;
+        height: 60px;
+        border: 0px;
+        margin-top: 20px;
+        cursor: pointer;
+        font-family: 'Open Sans', sans-serif;
+        font-size: 30px;
+    }
+
+    /*FAQ*/
+    .div_tituloFaq{
+        width:640px;
+        height:70px;
+        margin-top:30px;
+        margin-left:auto;
+        margin-right:auto;
+
+        /*Formatação da Fonte*/
+        font-style: italic;
+        text-align:center;
+        font-size:40px;
+        line-height:70px;
+    }
+
+    #div_atrasFaq{
+        width: 90%;
+        height: 162px;
+        padding: 10px;
+        text-align: center;
+        position: relative;
+        z-index: 0;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    #div_faq{
+        width:97%;
+        height:140px;
+        padding:10px;
+        overflow:auto;
+        text-align:center;
+        position:relative;
+        z-index:0;
+        margin-left:auto;
+        margin-right:auto;
+    }
+
+    .div_pergRespFaq:first-child{
+        margin-top:0px;
+    }
+
+    .div_pergRespFaq{
+        width:100%;
+        height:140px;
+        margin-top:10px;
+        border-bottom:1px solid #d8d8d8;
+    }
+
+    .div_pergRespFaq:last-child{
+        border-bottom:0px;
+    }
+
+    .div_perguntaFaq{
+        width: 100%;
+        height: 60px;
+        font-family: 'Open Sans', sans-serif;
+        text-align: center;
+        font-size: 33px;
+        line-height: 60px;
+    }
+
+    .div_respostaFaq{
+        width:100%;
+        height:90px;
+        overflow:auto;
+        margin-left:auto;
+        margin-right:auto;
+        display:flex;
+        align-items:center;
+    }
+
+    .resposta_faq{
+        margin-left:auto;
+        margin-right:auto;
+
+        /*Formatação da Fonte*/
+        font-family:'Open Sans', sans-serif;
+        font-size:25px;
+    }
+
+    /*Enquetes*/
+    #botao_flutuanteEnquete{
+        width: 150px;
+        height: 150px;
+        position: fixed;
+        z-index: 2;
+        margin-top: -597px;
+        cursor: pointer;
+        right: 0;
+    }
+    #div_icone_enquete{
+        width: 80px;
+        height: 83px;
+        margin-left:auto;
+        margin-right:auto;
+        margin-top:25px;
+    }
+
+    #div_icone_enquete img{
+        width: 80px;
+        height: 80px;
+    }
+
+    #div_titulo_enquete{
+        width:150px;
+        height:35px;
+        margin-left:auto;
+        margin-right:auto;
+
+        /*Impedir a seleção de texto*/
+        -webkit-touch-callout: none;
+        -webkit-user-select: none;
+        -khtml-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+
+        /*Formatação da Fonte*/
+        font-style: italic;
+        text-align:center;
+        font-size:28px;
+
+    }
+}

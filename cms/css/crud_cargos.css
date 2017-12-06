@@ -1,0 +1,52 @@
+#tabela_crud_titulos{
+    width:515px;
+    height:50px;
+    background-color:red;
+    margin-left:auto;
+    margin-right: auto;
+    margin-top:100px;
+}
+
+.tabela_crud_conteudo{
+    width:516px;
+    height:50px;
+    margin-left:auto;
+    margin-right: auto;
+}
+
+#titulo_cargos{
+    width:375px;
+    height:30px;
+    padding:10px;
+    background-color:#6d79da;
+    border-bottom:10px solid #979fe2;
+
+    /*Formatação da Fonte*/
+    font-family:'Open Sans', sans-serif;
+    text-align:center;
+    color:#fff;
+    font-size:16px;
+    line-height:30px;
+}
+
+#div_foraCadastro{
+    width:820px;
+    height:470px;
+    position:absolute;
+    background-color:#200b00;
+    z-index:101;
+    margin:auto;
+    top:0;
+    bottom:0;
+    right:0;
+    left:0;
+    display:none;
+}
+
+#div_cadastro{
+    width:95%;
+    height:420px;
+    background-color:#fff;
+    margin:auto;
+    margin-top:25px;
+}
