@@ -87,8 +87,6 @@
 
         </div>
         <div id="esqueleto">
-            <!--Pop Up-->
-            <?php include_once('externos/verInformacoes/gerenciamento_usuariosCadastrados/popupCadastro.php');  ?>
             <!--Cabeçalho-->
             <?php include_once('cabecalho/cabecalho.php');?>
             <?php
@@ -163,7 +161,7 @@
                                 $email = $rs['email'];
                                 $celular = $rs['celular'];
                                 $telefone = $rs['telefone'];
-
+                                
                                 $idEndereco = $rs['id_endereco'];
 							}
 
@@ -229,14 +227,18 @@
 
 
 							?>
-								$(document).ready(function(){
-									abrirPopUp();
-                                    aumentarFooter();
-								});
+                                <script>
+                                    $(document).ready(function(){
+                                        abrirPopUp();
+                                        aumentarFooter();
+                                    });  
+                                </script>    
 							<?php
 							break;
 					}
 				}
+                //Pop up
+                include_once("externos/verInformacoes/gerenciamento_usuariosCadastrados/popupCadastro.php");
 			?>
             <!--Conteúdo-->
             <section>

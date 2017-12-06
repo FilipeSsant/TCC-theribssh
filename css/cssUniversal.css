@@ -852,7 +852,7 @@
     }
 }
 
-@media screen and (min-device-width: 300px) and (orientation:portrait){
+@media screen and (min-device-width: 50px) and (max-device-width: 500px) and (orientation:portrait){
     /*Estilização do Scroll*/
     /*Chrome*/
     ::-webkit-scrollbar-track {

@@ -72,7 +72,7 @@
 
         </div>
         <div id="esqueleto">
-            <?php include_once('externos/verInformacoes/gerenciamento_reservas/popupCadastro.php'); ?>
+            <?php include_once('externos/verInformacoes/historico_reservas/popupCadastro.php'); ?>
             <!--Cabeçalho-->
             <?php
 

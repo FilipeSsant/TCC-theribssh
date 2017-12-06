@@ -53,7 +53,7 @@
 <!--Div de Cadastro-->
 <div id="div_foraCadastro">
     <!--Botão fechar-->
-    <a href="gerenciamento_reservas.php">
+    <a href="ver_reservasAprovadas.php">
         <div class="botao_fecharPopUp" onClick="fecharPopUp(), normalizarFooter()">
             <img src="img/fecharPopUp.png" alt="">
         </div>

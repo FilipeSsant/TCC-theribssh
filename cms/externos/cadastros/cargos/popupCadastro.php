@@ -69,6 +69,8 @@
                                         $retirarAcentos = str_replace('ã', 'a', $retirarAcentos);
                                         $retirarAcentos = str_replace('é', 'e', $retirarAcentos);
                                         $retirarAcentos = str_replace('ê', 'e', $retirarAcentos);
+                                        $retirarAcentos = str_replace('ó', 'o', $retirarAcentos);
+                                        $retirarAcentos = str_replace('ô', 'o', $retirarAcentos);
                                         $nameInput = str_replace(' ', '_', $retirarAcentos);
                                         $nameInput = strtolower($nameInput);
                                         
